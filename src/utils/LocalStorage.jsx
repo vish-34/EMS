@@ -49,46 +49,7 @@ export const initializeTemporaryData = () => {
         ];
         localStorage.setItem('user', JSON.stringify(temporaryData));
     }
-
-    if (!localStorage.getItem('employee')) {
-        const temporaryData = [
-
-            {
-                "id": 1,
-                "name": "John Doe",
-                "profession": "Software Engineer",
-                "role": "Employee"
-            },
-            {
-                "id": 2,
-                "name": "Jane Smith",
-                "profession": "Project Manager",
-                "role": "Employee"
-            },
-            {
-                "id": 3,
-                "name": "Emily Johnson",
-                "profession": "HR Specialist",
-                "role": "Employee"
-            },
-            {
-                "id": 4,
-                "name": "Michael Brown",
-                "profession": "Data Analyst",
-                "role": "Employee"
-            },
-            {
-                "id": 5,
-                "name": "Sarah Davis",
-                "profession": "UX Designer",
-                "role": "Employee"
-            }
-
-
-        ];
-        localStorage.setItem('user', JSON.stringify(temporaryData));
-    }
-};
+}
 
 
 
